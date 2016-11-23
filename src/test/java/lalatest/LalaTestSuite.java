@@ -102,11 +102,12 @@ public class LalaTestSuite {
 			//ADDCART
 			//*[@id="product_addtocart_form"]/div[4]/div[5]/div/div/div[3]/button
 			driver.findElement(By.xpath("//*[@id='product_addtocart_form']/div[4]/div[5]/div/div/div[3]/button")).click();
-
+			System.out.println("Add to Cart is clicked");
 			//CHECKOUT
 			//*[@id="header-cart"]/div[3]/div[3]/div/a[2]
 			WebDriverWait waitForCheckOut= new WebDriverWait(driver, 100);
 			waitForCheckOut.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='header-cart']/div[3]/div[3]/div/a[2]"))).click();
+			System.out.println("CheckOut is clicked");
 		}
 		else if(randomLink==LinksString.get(1))
 		{
@@ -134,11 +135,12 @@ public class LalaTestSuite {
 			//ADDCART
 			//*[@id="product_addtocart_form"]/div[4]/div[5]/div/div/div[3]/button/span/span
 			driver.findElement(By.xpath("//*[@id='product_addtocart_form']/div[4]/div[5]/div/div/div[3]/button/span/span")).click();
-
+			System.out.println("Add to Cart is clicked");
 			//CHECKOUT
 			//*[@id="header-cart"]/div[3]/div[3]/div/a[2]/span
 			WebDriverWait waitForCheckOut= new WebDriverWait(driver, 100);
 			waitForCheckOut.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='header-cart']/div[3]/div[3]/div/a[2]/span"))).click();
+			System.out.println("Checkout is clicked");
 		}
 		else if(randomLink==LinksString.get(2))
 		{
@@ -166,11 +168,12 @@ public class LalaTestSuite {
 			//ADDCART
 			//*[@id="product_addtocart_form"]/div[4]/div[5]/div/div/div[3]/button/span/span
 			driver.findElement(By.xpath("//*[@id='product_addtocart_form']/div[4]/div[5]/div/div/div[3]/button/span/span")).click();
-
+			System.out.println("Add to cart is clicked");
 			//CHECKOUT
 			//*[@id="header-cart"]/div[3]/div[3]/div/a[2]/span
 			WebDriverWait waitForCheckOut= new WebDriverWait(driver, 100);
 			waitForCheckOut.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='header-cart']/div[3]/div[3]/div/a[2]/span"))).click();
+			System.out.println("Checkout is clicked");
 		}
 		else if(randomLink==LinksString.get(3))
 		{
@@ -198,11 +201,12 @@ public class LalaTestSuite {
 			//ADDCART
 			//*[@id="product_addtocart_form"]/div[4]/div[5]/div/div/div[3]/button/span/span
 			driver.findElement(By.xpath("//*[@id='product_addtocart_form']/div[4]/div[5]/div/div/div[3]/button/span/span")).click();
-
+			System.out.println("Add to Cart is clicked");
 			//CHECKOUT
 			//*[@id="header-cart"]/div[3]/div[3]/div/a[2]/span
 			WebDriverWait waitForCheckOut= new WebDriverWait(driver, 100);
 			waitForCheckOut.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='header-cart']/div[3]/div[3]/div/a[2]/span"))).click();
+			System.out.println("CheckOut is clicked");
 		}
 		//FILL IN THE BILLING INFORMATION
 		driver.findElement(By.xpath("//*[@id='billing:firstname']")).sendKeys("test");
