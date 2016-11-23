@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34656" started-at="2016-11-23T10:47:24Z" finished-at="2016-11-23T10:47:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34656" started-at="2016-11-23T10:47:24Z" finished-at="2016-11-23T10:47:59Z">
+      <class name="lalatest.LalaTestSuite">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:lalatest.LalaTestSuite@7cd62f43]" name="beforeTest" is-config="true" duration-ms="972" started-at="2016-11-23T15:47:24Z" finished-at="2016-11-23T15:47:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="LalaTest()[pri:0, instance:lalatest.LalaTestSuite@7cd62f43]" name="LalaTest" duration-ms="33598" started-at="2016-11-23T15:47:25Z" finished-at="2016-11-23T15:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LalaTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:lalatest.LalaTestSuite@7cd62f43]" name="afterTest" is-config="true" duration-ms="73" started-at="2016-11-23T15:47:59Z" finished-at="2016-11-23T15:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- lalatest.LalaTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
